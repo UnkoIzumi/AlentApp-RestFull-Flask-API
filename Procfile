@@ -1,1 +1,1 @@
-Web : gunicorn ChatBotAPI:app -- reload --workers 2
+Web : gunicorn ChatBotAPI:app --reload --workers 2
