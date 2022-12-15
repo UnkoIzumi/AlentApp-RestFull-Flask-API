@@ -1,0 +1,76 @@
+{"intents": [
+        {"tag": "softwareTest",
+         "patterns": ["Gelar sarjana dalam ilmu komputer, teknik komputer, sistem informasi dan informatika", "Pengetahuan terkini tentang desain pengujian perangkat lunak dan metodologi pengujian",
+         "Pengetahuan kerja tentang teknik pengujian dan kompatibilitas dengan berbagai program perangkat lunak", "Paham akan dasar matematika, ipa, fisika",  "mampu bekerja individu, kolaborasi dan tim",
+         "bisa mengoperasikan sistem operasi seperti linux, windows komputer", "disiplin, serius, jujur, dan bertanggung jawab", "Meninjau persyaratan perangkat lunak dan menyiapkan skenario pengujian",
+         "Menjalankan tes pada kegunaan perangkat lunak", "Menganalisis hasil pengujian pada dampak database", "kesalahan atau bug, dan kegunaan",
+         "Menyiapkan laporan pengujian perangkat lunak, pengujian dan memprioritaskan kegiatan pengujian", ""],
+         "responses": ["Software Testing", "Software Testing"],
+         "context_set": ""
+        },
+        {"tag": "programmer",
+         "patterns": ["informasi bagi network", "adaptasi desktop seni", "rekayasa perangkat paham bersih",
+         "tkj kaya main matematika", "logika coding fisika logis", "program teliti ipa database kuliah",
+         "editor debugging struktur cryptography", "cloud git container", "tik basis text pelajaran",
+         "teknik komputer ilmu sistem", "informatika operasi teknologi", "sistem kritis data serius",
+         "ingin tau troubleshooting", "masalah pecah kolaborasi tim", "algoritma kode pikir budaya",
+         "inggris dokumentasi kreatif", "inovasi debug solve waktu", "manajemen komunikasi rpl rapih",
+         "bicara kaya editor", "sublim vsc code",
+
+         "tidak naik kelas", "lulus bahagia orangtua", "tua tengkar ribut bersih takut",
+         "ceroboh pelupa pendiam bodoh tidur",
+
+         "pembohong dan tidak bertanggung", "jawab tidak naik kelas tidak", "lulus mata kuliah", "tidak bisa bahasa inggris"],
+         "responses": ["Programmer"],
+         "context_set": ""
+        },
+
+        {"tag": "softwareDevelopmentEngineer",
+         "patterns": ["berbagi informasi", "network adaptasi desktop seni", "rekayasa perangkat paham bersih",
+         "tkj kaya main matematika", "logika coding fisika logis", "program teliti ipa database kuliah",
+         "editor debugging struktur", "cryptography cloud git container", "tik basis text pelajaran",
+         "teknik komputer ilmu", "sistem informatika operasi", "teknologi sistem kritis data serius",
+         "ingin tau troubleshooting", "masalah pecah kolaborasi tim", "algoritma kode pikir budaya",
+         "inggris dokumentasi kreatif", "inovasi debug solve waktu", "manajemen komunikasi rpl rapih",
+         "bicara",
+
+         "tidak naik kelas", "lulus bahagia orangtua", "tua tengkar ribut bersih takut",
+         "ceroboh pelupa", "pendiam bodoh tidur",
+
+         "pembohong dan tidak bertanggung jawab", "tidak naik kelas", "tidak lulus mata kuliah", "tidak bisa bahasa inggris"],
+         "responses": ["Software Development Engineer"],
+         "context_set": ""
+        },
+        {"tag": "technicalHardware",
+         "patterns": ["solving waktu manajemen", "komunikasi sistem evaluasi", "tik terapan kuliah main",
+         "bicara informasi berbagi networking", "adaptasi planning hardware", "elektro circuit arsitektur",
+         "analisis jaringan kabel", "matematika logika coding fisika", "logis program teliti", "ipa Management sistem",
+         "teknik komputer ilmu informatika", "operasi teknologi teknisi", "grafis design desain solder",
+         "tau troubleshooting masalah", "pecah kolaborasi tim", "algoritma kode rekayasa", "ingin timah pelajaran",
+         "inggris dokumentasi perangkat", "software komputer mikrokontroller", "indonesia keras pjok prestasi",
+
+         "tidak naik kelas", "lulus bahagia orangtua", "tengkar ribut bersih takut",
+         "tinggi ceroboh pendiam bodoh tidur",
+
+         "pembohong, jujur", "tidak bertanggung jawab", "tidak lulus mata kuliah", "takut ceroboh"],
+         "responses": ["Technical Hardware"],
+         "context_set": ""
+        },
+        {"tag": "copyWriter",
+         "patterns": ["traffic trending", "sosial grafis desain", "edit jurnal pelajaran ramai kaya",
+         "basket futsal bulutangkis ajar", "logika fisika logis program", "teliti ipa baca software ips", "effort gambar web kuliner makan",
+         "ilmu bisnis media dengar", "teknologi thinking creative", "interpersonal imajinasi baca", "tulis website ingin tidur",
+         "tau troubleshooting masalah", "pecah kolaborasi tim algoritma", "kode aktif lukis ide jalan", "makan kuliah olahraga",
+         "inggris dokumentasi kreatif", "inovasi solving waktu manajemen", "komunikasi research photoshop", "wisata iklan bola",
+         "bicara informasi bagi", "networking adaptasi seni budaya", "prakarya kewiraushaan indonesia", "adobe ilustrator badminton",
+         "jurnalis teater ide multitasking",
+
+         "pendiam bodoh tidur", "tidak naik kelas", "tidak bahagia orangtua", "tengkar ribut bersih takut diam",
+         "ceroboh malas",
+
+         "tidak jujur", "tidak bertanggung jawab", "tidak lulus mata kuliah", "takut salah bahasa jawa arab"],
+         "responses": ["Copy Writer"],
+         "context_set": ""
+        }
+   ]
+}
