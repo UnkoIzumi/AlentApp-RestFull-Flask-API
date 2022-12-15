@@ -84,5 +84,5 @@ class botalent(Resource):
 api.add_resource(botalent, "/chat", methods=["POST", "GET"])
 
 if __name__ == '__main__':
-    app.run(host='192.168.18.24', debug=True)
-    # app.run(host='192.168.137.214', port='5050', debug=True)
+    #app.run(host='192.168.18.24', debug=True)
+    app.run(port='5050', debug=True)
