@@ -1,1 +1,1 @@
-Web : gunicorn apps:app -- reload --workers 2
+Web : gunicorn apps.wsgi
