@@ -19,7 +19,7 @@ nltk.download('punkt')
 lemmatizer = Lemmatizer()  # pemanggilan fungsi lemmatizer
 tokenizer = Tokenizer()  # pemanggilan fungsi tokenizer
 
-with open("data.json") as file:
+with open("intents2.json") as file:
     data = json.load(file)
 
 try:

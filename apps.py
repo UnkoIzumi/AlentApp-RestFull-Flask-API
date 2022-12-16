@@ -1,11 +1,12 @@
 from flask import Flask, request, jsonify
 from flask_restful import Resource, Api
+from flask_cors import CORS
 from main import chat_with_bot
 import re
 
 app = Flask(__name__)
 api = Api(app)
-
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 class botalent(Resource):
     def post(self):
@@ -82,7 +83,4 @@ class botalent(Resource):
 
 
 api.add_resource(botalent, "/chat", methods=["POST", "GET"])
-
-if __name__ == '__main__':
-    app.run(host='192.168.18.24', debug=True)
-    # app.run(host='192.168.137.214', port='5050', debug=True)
+app.run(host='0.0.0.0', port=5005, debug=True)
