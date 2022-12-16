@@ -6,7 +6,6 @@ import re
 app = Flask(__name__)
 api = Api(app)
 
-
 class botalent(Resource):
     def post(self):
         selectInput = request.form['select']
