@@ -8,8 +8,7 @@ import numpy
 # from nltk.stem import LancasterStemmer
 import matplotlib.pyplot as plt
 from nlp_id.lemmatizer import Lemmatizer  # library pendeteksi kata yang berhimbuan awalan kata dan akhiran kata
-from nlp_id.tokenizer import \
-    Tokenizer  # pemisahan kalimat yang akan diformat bentuk tag dengan acuan tiap spasi (per character)
+from nlp_id.tokenizer import Tokenizer  # pemisahan kalimat yang akan diformat bentuk tag dengan acuan tiap spasi (per character)
 from tensorflow.python.keras.layers import Dense, Dropout
 from tensorflow.python.keras.models import Sequential  # library pelatihan menggunakan metode sequential
 from tensorflow.python.keras.models import model_from_yaml  # library perubahan format data training ke yaml
@@ -275,8 +274,5 @@ def post():
         dominanSort = sorted(mapping, key=lambda s: float(re.search(r'(\d+)\.', s).groups()[0]))
         return jsonify(chatBotReply=dominanSort)
 
-
-post()
-
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8080, debug=True)
+    app.run(host='172.16.56.57', port=8080, debug=True)
