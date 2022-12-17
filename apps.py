@@ -274,5 +274,6 @@ def post():
         dominanSort = sorted(mapping, key=lambda s: float(re.search(r'(\d+)\.', s).groups()[0]))
         return jsonify(chatBotReply=dominanSort)
 
+
 if __name__ == '__main__':
     app.run(host='*', port=8080, debug=True)
