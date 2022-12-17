@@ -1,1 +1,1 @@
-Web: gunicorn apps:app --host=0.0.0.0 --port=${PORT:-5000}
+Web: gunicorn apps:app
